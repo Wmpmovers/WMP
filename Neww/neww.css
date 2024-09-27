@@ -1,0 +1,42 @@
+.navbar{
+    box-shadow: 5px 5px 10px rgb(109, 7, 7);
+    z-index: 1;
+}
+.nav-item{
+    margin-left: 30px;
+}
+#newss{
+    margin-top: 50px;
+}
+.d-flex{
+    flex-wrap: wrap;
+}
+#justify{
+    text-align: justify;
+}
+#lastfuta{
+    background-color: black;
+}
+.position-fixed{
+    margin-bottom: 10px;
+}
+#footer1{
+    margin-left: 110px;
+}
+
+ /*********FOR IMAGE ZOOMING***/
+ .image-container {
+    overflow: hidden; /* Ensures the image doesn't overflow the container */
+    position: relative;
+  }
+  
+  .image-container img {
+    width: 100%;     /* Makes the image responsive */
+    height: auto;    /* Keeps the aspect ratio */
+    transition: transform 0.5s ease; /* Smooth transition */
+  }
+  
+  .image-container:hover img {
+    transform: scale(1.2); /* Zoom in on hover */
+  }
+    

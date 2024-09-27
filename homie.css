@@ -1,0 +1,151 @@
+body{
+    box-sizing: border-box;
+    margin: 10px;
+}
+/*.container-fluid{
+    margin: 0;
+}*/
+.navbar{
+    box-shadow: 5px 5px 10px rgb(109, 7, 7);
+    z-index: 1;
+}
+/*#navbarSupportedContent{
+    margin-left: 200px;
+}*/
+.nav-item{
+    margin-left: 30px;
+}
+.carousel{
+    margin-top: 100px;
+}
+#anime{
+    animation: tobi 5s;
+    animation-iteration-count: infinite;
+}
+.card-title{
+    animation: tobi 5s;
+    animation-iteration-count: infinite;
+}
+#inter h3{
+    color: red;
+}
+#justify{
+    text-align: justify;
+}
+.d-flex{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.see{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.see li{
+    list-style-type: none;
+}
+/* #get{
+    margin-left: 60px;
+    border-radius: 10px;
+} */
+.contact{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.icons{
+    padding-top: 60px;
+    padding-bottom: 50px;
+   border-radius: 50%;
+    margin-left: 50px;
+}
+.svg{
+    padding: 10px;
+    border-radius: 50%;
+}
+.svg2{
+    padding: 10px;
+    border-radius: 50%;
+}
+/* #dome{
+    margin-left: 45px;
+} */
+#image{
+    background-image: url(/Images/commercial2.jpg);
+}
+#lina{
+    padding: 5px 7px 5px 7px;
+}
+#find{
+    margin-left: 50px;
+    padding: 5px 7px;
+}
+#lastfuta{
+    background-color: black;
+}
+#burr{
+    box-shadow: 5px 5px 10px black;
+    animation: gifted 2s;
+    animation-iteration-count: infinite;
+}
+#badge{
+    font-size: 2px;
+}
+/* #contact1{
+    margin-left: 30px;
+    font-size: 60px;
+    color: rgb(42, 194, 49);
+} */
+
+#contact2{
+    margin-left: 30px;
+    color: rgb(21, 66, 117);
+    font-size: 60px;
+}
+#conta{
+    box-shadow: 3px 3px 7px black;
+    padding: 20px 5px 20px 5px;
+}
+.position-fixed{
+    margin-bottom: 10px;
+}
+.read {
+    text-decoration: none;
+}
+#footer1{
+    margin-left: 110px;
+}
+/* #strollUp{
+    margin-bottom: 80px;
+} */
+@keyframes tobi {
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.8);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+@keyframes gifted {
+  0%   {background-color: rgb(163, 16, 16);}
+  /*25%  {background-color: yellow;}*/
+  100%  {background-color: rgb(36, 126, 73);}
+  /*100% {background-color: green;}*/
+}
+
+
+/*********FOR IMAGE ZOOMING***/
+   .image-container {
+    overflow: hidden; /* Ensures the image doesn't overflow the container */
+    position: relative;
+  }
+  
+  .image-container img {
+    width: 100%;     /* Makes the image responsive */
+    height: auto;    /* Keeps the aspect ratio */
+    transition: transform 0.5s ease; /* Smooth transition */
+  }
+  
+  .image-container:hover img {
+    transform: scale(1.2); /* Zoom in on hover */
+  }

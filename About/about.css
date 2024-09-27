@@ -1,0 +1,106 @@
+body{
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.navbar{
+    box-shadow: 5px 5px 10px rgb(109, 7, 7);
+    z-index: 1;
+}
+.nav-item{
+    margin-left: 30px;
+}
+#about{
+    margin-top: 50px;
+}
+#justify{
+    text-align: justify;
+}
+/* #aboutUs h1{
+    animation: tobi 5s;
+
+} */
+.d-flex{
+    flex-wrap: wrap;
+}
+.card{
+    margin-left: 0px;
+}
+#futa{
+    flex-wrap: wrap;
+}
+#footer1{
+    margin-left: 110px;
+}
+#lastfuta{
+    background-color: black;
+}
+.position-fixed{
+    margin-bottom: 10px;
+}
+@keyframes gifted {
+    0%   {color: red;}
+    /*25%  {background-color: yellow;}*/
+    100%  {color: rgb(50, 50, 94);}
+    /*100% {background-color: green;}*/
+  }
+  @keyframes tobi {
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.8);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+/****************First Animation*********/
+/* .property{
+  color: rgb(3, 3, 48);
+} */
+.aboutAni{
+    text-align: center;
+    position: relative;
+    color: rgb(3, 3, 48);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 7px;
+    overflow: hidden;
+    border-right: 2px solid hsl(0, 0%, 80%);
+    white-space: nowrap;
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+      blinkTextCursor 500ms infinite;
+      animation-iteration-count: infinite;
+  }
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 300px;
+    }
+  }
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color: hsl(0, 0%, 80%);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+
+  /*********FOR IMAGE ZOOMING***/
+  .image-container {
+    overflow: hidden; /* Ensures the image doesn't overflow the container */
+    position: relative;
+  }
+  
+  .image-container img {
+    width: 100%;     /* Makes the image responsive */
+    height: auto;    /* Keeps the aspect ratio */
+    transition: transform 0.5s ease; /* Smooth transition */
+  }
+  
+  .image-container:hover img {
+    transform: scale(1.2); /* Zoom in on hover */
+  }

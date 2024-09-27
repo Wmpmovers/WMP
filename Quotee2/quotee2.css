@@ -1,0 +1,51 @@
+.navbar{
+    box-shadow: 5px 5px 10px rgb(109, 7, 7);
+    z-index: 1;
+}
+/*#navbarSupportedContent{
+    margin-left: 200px;
+}*/
+.nav-item{
+    margin-left: 30px;
+}
+#quotee{
+    margin-top: 50px;
+}
+
+.shipping{
+    border-bottom: 4px solid rgb(126, 124, 124);
+    padding: 7px 10px;
+    background-color: rgb(206, 202, 202);
+}
+.remove{
+    padding: 7px 10px;
+}
+.remove:hover{
+    border-bottom: 4px solid rgb(126, 124, 124);
+    padding: 7px 10px;
+    background-color: rgb(206, 202, 202);
+}
+.form{
+    width: 80%;
+    display: inline-flex;
+    margin-left: 100px;
+}
+.form1{
+    width: 30%;
+    margin-left: 30px;
+}
+.mb-3{
+    margin-top: 20px;
+}
+#footer1{
+    margin-left: 110px;
+}
+#futa{
+    flex-wrap: wrap;
+}
+#lastfuta{
+    background-color: black;
+}
+.position-fixed{
+    margin-bottom: 10px;
+}
